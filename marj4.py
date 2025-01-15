@@ -11,7 +11,7 @@ st.write("""
 Bu uygulamada **C₀** (ilk alış maliyeti) ve **S₂** (nihai satış fiyatı) varsayılan olarak girilir.
 Grup marjı (M) otomatik hesaplanır.  
 Ürün ismi (opsiyonel) yazıp hesaplama yaparsanız, 
-aşağıdaki tabloda girilen tüm değerler ve sonuçlar belirli **sırada** listelenir.
+aşağıdaki hesaplama geçmişinde ürünleriniz ismiyle listelenir.
 """)
 
 # -- Girdi: Ürün İsmi
