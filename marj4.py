@@ -5,7 +5,7 @@ import pandas as pd
 if 'history' not in st.session_state:
     st.session_state['history'] = []
 
-st.title("İki Aşamalı Satış - Kâr Marjı Hesaplama, osmanlı askerleri dürüm istiyor")
+st.title("İki Aşamalı Satış - Kâr Marjı Hesaplama")
 
 st.write("""
 Bu uygulamada **C₀** (ilk alış maliyeti) ve **S₂** (nihai satış fiyatı) varsayılan olarak girilir.
