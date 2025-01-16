@@ -5,7 +5,7 @@ import pandas as pd
 if 'history' not in st.session_state:
     st.session_state['history'] = []
 
-st.title("İki Aşamalı Satış - Kâr Marjı Hesaplama")
+st.title("İki Aşamalı Satış - Kâr Marjı Hesaplama, osmanlı askerleri dürüm istiyor")
 
 st.write("""
 Bu uygulamada **C₀** (ilk alış maliyeti) ve **S₂** (nihai satış fiyatı) varsayılan olarak girilir.
@@ -18,7 +18,7 @@ aşağıdaki hesaplama geçmişinde ürünleriniz isimleriyle listelenir.
 product_name = st.text_input("Ürün İsmi (opsiyonel)", "")
 
 # -- Girdi: C0 ve S2
-c0_input = st.text_input("Alış Maliyeti (C0)", value="20")
+c0_input = st.text_input("Alış Maliyeti (C0)", value="30")
 s2_input = st.text_input("Nihai Satış Fiyatı (S2)", value="90")
 
 # Virgül -> Nokta dönüştür
